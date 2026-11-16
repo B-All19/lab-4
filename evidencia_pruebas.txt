@@ -1,0 +1,598 @@
+Evidencia de pruebas ArenaGT.
+Entorno OpenJDK 21, compilación con Xlint y sin advertencias.
+Formato de aportes por participante, código, puntos de tabla, diferencia y victorias.
+
+Fútbol victoria
+Entrada. 4 a 1
+Esperado. A 3 3 1, B 0 -3 0
+Obtenido. A 3 3 1, B 0 -3 0
+
+Fútbol empate
+Entrada. 0 a 0
+Esperado. A 1 0 0, B 1 0 0
+Obtenido. A 1 0 0, B 1 0 0
+
+Penales reglamentario
+Entrada. 1 a 3
+Esperado. A 0 -2 0, B 3 2 1
+Obtenido. A 0 -2 0, B 3 2 1
+
+Definición por penales
+Entrada. Goles 2 a 2 y penales 5 a 4
+Esperado. A 2 0 1, B 1 0 0
+Obtenido. A 2 0 1, B 1 0 0
+
+Baloncesto
+Entrada. 70 a 80
+Esperado. A 1 -10 0, B 2 10 1
+Obtenido. A 1 -10 0, B 2 10 1
+
+Voleibol 0
+Entrada. 3 a 0
+Esperado. A 3 3 1, B 0 -3 0
+Obtenido. A 3 3 1, B 0 -3 0
+
+Voleibol 1
+Entrada. 3 a 1
+Esperado. A 3 2 1, B 0 -2 0
+Obtenido. A 3 2 1, B 0 -2 0
+
+Voleibol 2
+Entrada. 3 a 2
+Esperado. A 2 1 1, B 1 -1 0
+Obtenido. A 2 1 1, B 1 -1 0
+
+Voleibol visitante
+Entrada. 2 a 3
+Esperado. A 1 -1 0, B 2 1 1
+Obtenido. A 1 -1 0, B 2 1 1
+
+Relevos ocho lugares
+Entrada. Tiempos de 50 a 57 segundos
+Esperado. P1 10 0 1, P2 8 0 0, P3 6 0 0, P4 5 0 0, P5 4 0 0, P6 3 0 0, P7 2 0 0, P8 1 0 0
+Obtenido. P1 10 0 1, P2 8 0 0, P3 6 0 0, P4 5 0 0, P5 4 0 0, P6 3 0 0, P7 2 0 0, P8 1 0 0
+
+Relevos descalificación
+Entrada. P2 descalificado
+Esperado. P1 10 0 1, P2 0 0 0, P3 8 0 0, P4 6 0 0, P5 5 0 0, P6 4 0 0, P7 3 0 0, P8 2 0 0
+Obtenido. P1 10 0 1, P2 0 0 0, P3 8 0 0, P4 6 0 0, P5 5 0 0, P6 4 0 0, P7 3 0 0, P8 2 0 0
+
+Cuota Fútbol sala
+Entrada. Un participante
+Esperado. 600.00
+Obtenido. 600.00
+
+Cotización Fútbol sala
+Entrada. Cuatro participantes
+Esperado. 2400.00
+Obtenido. 2400.00
+
+Cotización sin cambios Fútbol sala
+Entrada. Consultar cotización
+Esperado. true
+Obtenido. true
+
+Ingresos Fútbol sala
+Entrada. Cuatro inscripciones
+Esperado. 2400.00
+Obtenido. 2400.00
+
+Ingreso por disciplina Fútbol sala
+Entrada. Consultar ingresos
+Esperado. 2400.00
+Obtenido. 2400.00
+
+Estado inscripción Fútbol sala
+Entrada. Antes del cierre
+Esperado. INSCRIPCION
+Obtenido. INSCRIPCION
+
+Eventos Fútbol sala
+Entrada. Cierre con cuatro inscritos
+Esperado. 6
+Obtenido. 6
+
+Estado en juego Fútbol sala
+Entrada. Cerrar inscripciones
+Esperado. EN_JUEGO
+Obtenido. EN_JUEGO
+
+Finalización Fútbol sala
+Entrada. Último resultado
+Esperado. FINALIZADO
+Obtenido. FINALIZADO
+
+Campeón Fútbol sala
+Entrada. Todos los eventos completos
+Esperado. P1
+Obtenido. P1
+
+Premio Fútbol sala
+Entrada. Mitad de cuatro cuotas
+Esperado. 1200.00
+Obtenido. 1200.00
+
+Premio no duplicado Fútbol sala
+Entrada. Consultar otra vez
+Esperado. 1200.00
+Obtenido. 1200.00
+
+Cuota Fútbol sala con penales
+Entrada. Un participante
+Esperado. 750.00
+Obtenido. 750.00
+
+Cotización Fútbol sala con penales
+Entrada. Cuatro participantes
+Esperado. 3000.00
+Obtenido. 3000.00
+
+Cotización sin cambios Fútbol sala con penales
+Entrada. Consultar cotización
+Esperado. true
+Obtenido. true
+
+Ingresos Fútbol sala con penales
+Entrada. Cuatro inscripciones
+Esperado. 3000.00
+Obtenido. 3000.00
+
+Ingreso por disciplina Fútbol sala con penales
+Entrada. Consultar ingresos
+Esperado. 3000.00
+Obtenido. 3000.00
+
+Estado inscripción Fútbol sala con penales
+Entrada. Antes del cierre
+Esperado. INSCRIPCION
+Obtenido. INSCRIPCION
+
+Eventos Fútbol sala con penales
+Entrada. Cierre con cuatro inscritos
+Esperado. 6
+Obtenido. 6
+
+Estado en juego Fútbol sala con penales
+Entrada. Cerrar inscripciones
+Esperado. EN_JUEGO
+Obtenido. EN_JUEGO
+
+Finalización Fútbol sala con penales
+Entrada. Último resultado
+Esperado. FINALIZADO
+Obtenido. FINALIZADO
+
+Campeón Fútbol sala con penales
+Entrada. Todos los eventos completos
+Esperado. P1
+Obtenido. P1
+
+Premio Fútbol sala con penales
+Entrada. Mitad de cuatro cuotas
+Esperado. 1500.00
+Obtenido. 1500.00
+
+Premio no duplicado Fútbol sala con penales
+Entrada. Consultar otra vez
+Esperado. 1500.00
+Obtenido. 1500.00
+
+Cuota Baloncesto
+Entrada. Un participante
+Esperado. 500.00
+Obtenido. 500.00
+
+Cotización Baloncesto
+Entrada. Cuatro participantes
+Esperado. 2000.00
+Obtenido. 2000.00
+
+Cotización sin cambios Baloncesto
+Entrada. Consultar cotización
+Esperado. true
+Obtenido. true
+
+Ingresos Baloncesto
+Entrada. Cuatro inscripciones
+Esperado. 2000.00
+Obtenido. 2000.00
+
+Ingreso por disciplina Baloncesto
+Entrada. Consultar ingresos
+Esperado. 2000.00
+Obtenido. 2000.00
+
+Estado inscripción Baloncesto
+Entrada. Antes del cierre
+Esperado. INSCRIPCION
+Obtenido. INSCRIPCION
+
+Eventos Baloncesto
+Entrada. Cierre con cuatro inscritos
+Esperado. 6
+Obtenido. 6
+
+Estado en juego Baloncesto
+Entrada. Cerrar inscripciones
+Esperado. EN_JUEGO
+Obtenido. EN_JUEGO
+
+Finalización Baloncesto
+Entrada. Último resultado
+Esperado. FINALIZADO
+Obtenido. FINALIZADO
+
+Campeón Baloncesto
+Entrada. Todos los eventos completos
+Esperado. P1
+Obtenido. P1
+
+Premio Baloncesto
+Entrada. Mitad de cuatro cuotas
+Esperado. 1000.00
+Obtenido. 1000.00
+
+Premio no duplicado Baloncesto
+Entrada. Consultar otra vez
+Esperado. 1000.00
+Obtenido. 1000.00
+
+Cuota Voleibol
+Entrada. Un participante
+Esperado. 450.00
+Obtenido. 450.00
+
+Cotización Voleibol
+Entrada. Cuatro participantes
+Esperado. 1800.00
+Obtenido. 1800.00
+
+Cotización sin cambios Voleibol
+Entrada. Consultar cotización
+Esperado. true
+Obtenido. true
+
+Ingresos Voleibol
+Entrada. Cuatro inscripciones
+Esperado. 1800.00
+Obtenido. 1800.00
+
+Ingreso por disciplina Voleibol
+Entrada. Consultar ingresos
+Esperado. 1800.00
+Obtenido. 1800.00
+
+Estado inscripción Voleibol
+Entrada. Antes del cierre
+Esperado. INSCRIPCION
+Obtenido. INSCRIPCION
+
+Eventos Voleibol
+Entrada. Cierre con cuatro inscritos
+Esperado. 6
+Obtenido. 6
+
+Estado en juego Voleibol
+Entrada. Cerrar inscripciones
+Esperado. EN_JUEGO
+Obtenido. EN_JUEGO
+
+Finalización Voleibol
+Entrada. Último resultado
+Esperado. FINALIZADO
+Obtenido. FINALIZADO
+
+Campeón Voleibol
+Entrada. Todos los eventos completos
+Esperado. P1
+Obtenido. P1
+
+Premio Voleibol
+Entrada. Mitad de cuatro cuotas
+Esperado. 900.00
+Obtenido. 900.00
+
+Premio no duplicado Voleibol
+Entrada. Consultar otra vez
+Esperado. 900.00
+Obtenido. 900.00
+
+Cuota Relevos
+Entrada. Un participante
+Esperado. 300.00
+Obtenido. 300.00
+
+Cotización Relevos
+Entrada. Cuatro participantes
+Esperado. 1200.00
+Obtenido. 1200.00
+
+Cotización sin cambios Relevos
+Entrada. Consultar cotización
+Esperado. true
+Obtenido. true
+
+Ingresos Relevos
+Entrada. Cuatro inscripciones
+Esperado. 1200.00
+Obtenido. 1200.00
+
+Ingreso por disciplina Relevos
+Entrada. Consultar ingresos
+Esperado. 1200.00
+Obtenido. 1200.00
+
+Estado inscripción Relevos
+Entrada. Antes del cierre
+Esperado. INSCRIPCION
+Obtenido. INSCRIPCION
+
+Eventos Relevos
+Entrada. Cierre con cuatro inscritos
+Esperado. 1
+Obtenido. 1
+
+Estado en juego Relevos
+Entrada. Cerrar inscripciones
+Esperado. EN_JUEGO
+Obtenido. EN_JUEGO
+
+Finalización Relevos
+Entrada. Último resultado
+Esperado. FINALIZADO
+Obtenido. FINALIZADO
+
+Campeón Relevos
+Entrada. Todos los eventos completos
+Esperado. P1
+Obtenido. P1
+
+Premio Relevos
+Entrada. Mitad de cuatro cuotas
+Esperado. 600.00
+Obtenido. 600.00
+
+Premio no duplicado Relevos
+Entrada. Consultar otra vez
+Esperado. 600.00
+Obtenido. 600.00
+
+Inicio sin ingresos
+Entrada. Cargar escenario inicial
+Esperado. 0.00
+Obtenido. 0.00
+
+Inicio sin premios
+Entrada. Carrera inicial finalizada
+Esperado. 0.00
+Obtenido. 0.00
+
+Torneos iniciales en juego
+Entrada. Consultar estados
+Esperado. 4
+Obtenido. 4
+
+Premio después de precarga
+Entrada. Completar baloncesto inicial durante uso normal
+Esperado. 1000.00
+Obtenido. 1000.00
+
+Código vacío
+Entrada. Registrar código vacío
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Participante repetido
+Entrada. Registrar p1
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Torneo repetido
+Entrada. Crear t
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Cantidad cero
+Entrada. Cotizar cero
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Cantidad negativa
+Entrada. Cotizar menos uno
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Cierre sin mínimo
+Entrada. Cerrar torneo vacío
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Inscripción duplicada
+Entrada. P1 otra vez
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Límite por empresa
+Entrada. Tercer equipo de Empresa 0
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Cupo máximo
+Entrada. Séptimo equipo en baloncesto
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Fuera de inscripción
+Entrada. Inscribir P7 tras cierre
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Segundo cierre
+Entrada. Cerrar nuevamente
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Resultado sin fecha
+Entrada. Resultado T-E1
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Hora inválida
+Entrada. Hora 24
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Sede vacía
+Entrada. Sede vacía
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Empate baloncesto
+Entrada. 4 a 4
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Marcador negativo
+Entrada. Menos uno a tres
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Marcador fraccionario
+Entrada. 1.5 a 3
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Resultado repetido
+Entrada. Repetir T-E1
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Reprogramar finalizado
+Entrada. Mover T-E1
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Voleibol inválido
+Entrada. 2 a 1
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Penales ausentes
+Entrada. 1 a 1 sin penales
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Penales iguales
+Entrada. 1 a 1 y penales 4 a 4
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Penales innecesarios
+Entrada. 1 a 0 con penales
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Tiempos iguales
+Entrada. 50.1 y 50.10 con P3 descalificado
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Tiempo cero
+Entrada. P1 cero y otros descalificados
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Resultado incompleto
+Entrada. Solo tiempo P1
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Conflicto sede entre tipos
+Entrada. Carrera misma hora y sede
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Conflicto participante entre torneos
+Entrada. P1 en dos encuentros
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Orden cronológico mixto
+Entrada. Fechas horas y sedes distintas
+Esperado. B-E1 F-E2 R-C1 F-E1
+Obtenido. B-E1 F-E2 R-C1 F-E1
+
+Calendario torneo
+Entrada. Torneo F
+Esperado. F-E2 F-E1
+Obtenido. F-E2 F-E1
+
+Calendario participante
+Entrada. Participante P1
+Esperado. B-E1 F-E2 F-E1
+Obtenido. B-E1 F-E2 F-E1
+
+Reprogramación conflictiva
+Entrada. Mover B-E1 a horario de F-E1
+Esperado. Rechazo y estado intacto
+Obtenido. Rechazo y estado intacto
+
+Reprogramación válida
+Entrada. Mover F-E1 al día siguiente
+Esperado. 2026-12-11
+Obtenido. 2026-12-11
+
+Evento programado
+Entrada. Evento F-E1 reprogramado
+Esperado. PROGRAMADO
+Obtenido. PROGRAMADO
+
+Orden por puntos
+Entrada. Alfa 7 Beta 6
+Esperado. true
+Obtenido. true
+
+Desempate diferencia
+Entrada. Ambos 7 puntos diferencias 3 y 1
+Esperado. true
+Obtenido. true
+
+Desempate victorias
+Entrada. Igualdad puntos y diferencia victorias 2 y 1
+Esperado. true
+Obtenido. true
+
+Desempate nombre
+Entrada. Mismos valores Alfa y Beta
+Esperado. true
+Obtenido. true
+
+Ranking por puntos
+Entrada. Uno 10 Dos 8
+Esperado. true
+Obtenido. true
+
+Ranking por nombre
+Entrada. Andes y Bosque con 10 puntos
+Esperado. true
+Obtenido. true
+
+Tabla inicial
+Entrada. T1 con desempates
+Esperado. P3 P1 P4 P5 P2 P6
+Obtenido. P3 P1 P4 P5 P2 P6
+
+Ranking acumulado
+Entrada. Todos los torneos iniciales
+Esperado. [ANDES | puntos 54, BOSQUE | puntos 33, CIMA | puntos 15, DUNA | puntos 5]
+Obtenido. [ANDES | puntos 54, BOSQUE | puntos 33, CIMA | puntos 15, DUNA | puntos 5]
+
+Consola tolera errores
+Entrada. Texto opción 99 fecha y cantidad inválidas
+Esperado. true
+Obtenido. true
+
+TOTAL
+Entrada. 118 pruebas
+Esperado. Todas aprobadas
+Obtenido. Todas aprobadas
